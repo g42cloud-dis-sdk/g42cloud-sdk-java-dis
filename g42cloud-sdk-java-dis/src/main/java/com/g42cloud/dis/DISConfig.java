@@ -430,7 +430,9 @@ public class DISConfig extends Properties implements ClientParams {
             return endpoint;
         }
 
-        throw new IllegalArgumentException("The endpoint is empty, please set endpoint before use.");
+        // 根据区域，域名，端口拼接
+        String endpointFormat = "https://dis.%s.%s";
+        return String.format(endpointFormat, getRegion(), "myg42cloud.com");
     }
 
     public String getManagerEndpoint() {

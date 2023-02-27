@@ -16,7 +16,7 @@ The recommended way to use the DIS SDK for Java in your project is to consume it
 
 #### Specify the SDK Maven dependency
     <dependency>
-        <groupId>io.github.g42cloud-disk-sdk</groupId>
+        <groupId>io.github.g42cloud-dis-sdk</groupId>
         <artifactId>g42cloud-sdk-java-dis</artifactId>
         <version>1.3.15</version>
         <scope>compile</scope>

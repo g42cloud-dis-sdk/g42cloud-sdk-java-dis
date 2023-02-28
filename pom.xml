@@ -31,11 +31,11 @@
 	<distributionManagement>
 		<snapshotRepository>
 			<id>oss-snapshot</id>
-			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+			<url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
 		</snapshotRepository>
 		<repository>
 			<id>oss-release</id>
-			<url>https://oss.sonatype.org/</url>
+			<url>https://s01.oss.sonatype.org/</url>
 		</repository>
 	</distributionManagement>
 
